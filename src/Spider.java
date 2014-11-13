@@ -14,9 +14,4 @@ public class Spider extends Animal {
         super(6);
     }
 
-    @Override
-    public void eat() {
-        System.out.println("Spider: Eat");
-    }
-
 }

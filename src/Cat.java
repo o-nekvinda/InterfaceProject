@@ -17,7 +17,7 @@ public class Cat extends Animal implements Pet {
     }
 
     public Cat(String n) {
-        super(0);
+        super(4);
         this.name = n;
     }
 
@@ -36,7 +36,6 @@ public class Cat extends Animal implements Pet {
         System.out.println("Cat: Play");
     }
 
-    @Override
     public void eat() {
         System.out.println("Cat: Eat");
     }

@@ -31,7 +31,6 @@ public class Fish extends Animal implements Pet {
         System.out.println("Fish: Play");
     }
 
-    @Override
     public void eat() {
         System.out.println("Fish: Eat");
     }

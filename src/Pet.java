@@ -15,6 +15,4 @@ public interface Pet {
     public void setName(String n);
 
     public void play();
-
-    public void eat();
 }

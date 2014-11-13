@@ -20,8 +20,5 @@ abstract public class Animal {
         System.out.println("Toto zvíøe jde po " + this.legs + " nohou.");
     }
 
-    public void eat() {
-        
-    }
-
+    public abstract void eat();
 }
